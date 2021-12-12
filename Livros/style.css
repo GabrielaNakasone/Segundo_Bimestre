@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400&family=Roboto:wght@300;400;700;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E5E5E5;
+}
+
+.grid-images {
+    padding: 10px;
+    justify-content: center;
+}
+
+.coluns {
+    padding: 30px;
+    border-radius: 12px;
+    background-color: #E5E5E5;
+    margin-bottom: 110px;
+    
+}
+
+.coluns img {
+    width: 350px;
+    /* height: 511.14px; */
+}
+
+
+.card-image {
+    background: #a8a8a8c7;
+    border-radius: 12px;
+    width: 350px;   
+    height: 200px;
+    position: absolute;
+    top: 180px;
+    z-index: 20;
+}
+
+.card-image h1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.card-image p {
+    font-family: Roboto;
+    font-style: normal; 
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    color: #000000bf;
+}
+
+.new-button {
+    width: 320px;
+    height: 59.3px;
+    border-radius: 12px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+}
